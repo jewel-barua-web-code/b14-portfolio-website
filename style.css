@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+header{
+    padding: 8px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.logo-r{
+    color: #fd6e0aFF;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+
+}
+
+ul li a{
+     text-decoration: none;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.common-btn{
+    background-color: #fd6e0aFF;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+}
+
+.outline-btn{
+    border: 1px solid #fd6e0aFF;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0aFF;
+    cursor: pointer;
+}
+
+.hero-left-btn-parent{
+    margin-top: 28px;
+}
+
+.about-parent{
+    background-color:rgb(245, 231, 206);
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.about-parent p{
+    margin: 10px 0;
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about-box-parent .box{
+    background-color: rgb(246, 236, 217);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* What I do Section CSS */
+
+.what-i-do-parent {
+    margin: 60px atuo;
+    text-align: center;
+}
+
+.what-i-do-card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid orange;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: rgba(117, 117, 117, 1);
+    font-size: 15px;
+}
+
+/* My Amazing Section Styles */
+.my-amazing-parent{
+    text-align: center;
+}
+
+.galary{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 12px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+
+.galary img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-1{
+    grid-area: one;
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
+}
+
+/* footer */
+
+footer{
+    margin-top: 70px !important;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+footer form input, footer form textarea{
+    border: none;
+    background: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+}
+/* Ai Generated Code */
+.hero-parent-root{
+   background-color: rgb(245, 231, 206);
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-left-p-1{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.hero-left h1{
+    font-size: 60px;
+    font-weight: bold;
+}
